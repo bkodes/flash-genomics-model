@@ -4,6 +4,12 @@ My own attempt at a long context genomics model, leveraging recent advances in l
 
 If you would like to collaborate and not averse to having the final model completely open sourced, get in touch. My goal is to simply figure out if long context is what holds us back from a new SOTA model.
 
+Update: Question <a href="https://huggingface.co/papers/2306.15794">has been answered</a>, but I'll probably still continue with the project.
+
+## Todo
+
+- [ ] add ability to combine with hyena, or even hyena alone, to fully evaluate what is necessary
+
 ## Citations
 
 ```bibtex
@@ -40,5 +46,15 @@ If you would like to collaborate and not averse to having the final model comple
     URL     = {https://www.biorxiv.org/content/early/2023/04/12/2022.08.22.504706},
     eprint  = {https://www.biorxiv.org/content/early/2023/04/12/2022.08.22.504706.full.pdf},
     journal = {bioRxiv}
+}
+```
+
+```bibtex
+@article{Nguyen2023HyenaDNALG,
+    title   = {HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution},
+    author  = {Eric D Nguyen and Michael Poli and Marjan Faizi and Armin W. Thomas and Callum Jacob Birch-sykes and Michael Wornow and Aman Patel and Clayton M. Rabideau and Stefano Massaroli and Yoshua Bengio and Stefano Ermon and Stephen A. Baccus and Christopher R{\'e}},
+    journal = {ArXiv},
+    year    = {2023},
+    volume  = {abs/2306.15794}
 }
 ```
